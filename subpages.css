@@ -1,0 +1,125 @@
+
+body#southindian{
+		background-image:     linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+         ),
+	url("images/southindian.jpg");
+  }
+
+  body#american{
+		background-image:     linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+         ),
+	url("images/burger.jpg");
+  }
+
+  body#mexican{
+		background-image:     linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+         ),
+	url("images/mexican.jpg");
+  }
+
+
+	body#desserts{
+		background-image:     linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+         ),
+	url("images/cakensweet.jpg");
+  }
+
+
+body#northindian{
+		background-image:     linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+         ),
+	url("images/northindian.jpeg");
+  }
+
+
+
+	body#italian{
+
+		background-image:     linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+         ),
+		url("images/italian.jpg");
+  }
+
+  
+	body#multicuisine{
+
+		background-image:     linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+         ),
+	url("images/multicuisine.jpg");
+
+  }
+
+  	body#chinese{
+
+		background-image:     linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+         ),
+         
+    	url("images/chinese.jpg");
+  }
+
+	@font-face {
+    font-family: groovy;
+    src:url('texts/Groovy.ttf')format('truetype');
+	}
+
+
+		@font-face {
+    font-family: DKBabySitter;
+    src:url('texts/DKBabySitter.ttf')format('truetype');
+	}
+
+p.content {
+  font-family: AishaScript; 
+}
+
+
+#more:checked + div {
+  height: auto;
+}
+
+body {
+  padding: 60px 400px ;
+	background-color:transparent;
+	background-size: 1500px 750px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+  color:white;
+        
+}
+
+
+
+
+@font-face {
+    font-family: AishaScript;
+    src:url('texts/AishaScript.ttf')format('truetype');
+}
+
+#areaName{
+	font-family: AishaScript;
+	font-size: 50px;
+	list-style-type: none;
+}
+
+#north  , #south , #central , #west , #east{
+	font-family : groovy ;
+	font-size: 20px;
+	list-style-type: disc;
+}

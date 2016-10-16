@@ -1,0 +1,95 @@
+@font-face {
+    font-family: EchinosPark;
+    src:url('texts/EchinosPark.ttf')format('truetype');
+  }
+    body{
+    background-color:black;
+    background-size: cover;
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("images/food.jpg");
+    background-position: absolute;
+    }
+    h1{
+      margin: 0px;
+  padding: 0px;
+  text-align:left;
+  font-size: 100px;
+  color: #79C6C6 ;
+  font-family:EchinosPark;
+    }
+    ul.topnav {
+      width: 100%;
+        list-style-type: none;
+        margin: 0;
+        margin-left: 0%;
+        padding:0;
+        overflow: hidden;
+        background-color: #111;
+        border: 1px solid #111;
+        border-radius: 20px;
+      }   
+          ul.topnav li {float: left;}
+    ul.topnav li a {
+        display: inline-block;
+        color: #00BFFF    ;
+        text-align: center;
+        padding-top: 0px;
+        padding: 40px 80px;
+        text-decoration: none;
+        transition: 0.3s;
+        font-size: 24px;
+        transition: 0.3s;
+      }
+    ul.topnav li a:hover {background-color: #555;
+      font-size:40px;
+            color: #FF4500;
+    }
+    ul.topnav li.icon {display: block;}
+    li.sidenav {
+      list-style-type: none; }
+      .sidenav {
+        height: auto;
+        width: 35%;
+        position: fixed;
+        top: 160px;
+        left: 8px;
+        background-color: #111;
+        overflow-x: hidden;
+        border: 1px solid #111;
+        border-radius: 20px;
+    }
+      div.sidenav a {
+        padding: 8px 8px 8px 0px;
+        text-decoration: none;
+        font-size: 30px;
+       color: #00BFFF    ;
+        display: block;
+        transition: 0.3s;
+    }
+    div.sidenav a:hover, .offcanvas a:focus{
+      color: #FF4500;
+    }
+        #main {
+        transition: margin-left .5s;
+        padding: 20px;
+    }
+    li a:hover {
+      font-size:50px;
+      color: white;
+    }
+    #text{
+        padding-left:50%;
+        padding-top:0%;
+        padding-right:10%;
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+        }
+      .RedImage{
+    width: 120px;
+    height: 120px;
+  }
+	#icons{
+		width:40px;
+	    height:40px;
+	    border-radius: 5px;
+}
