@@ -1,0 +1,126 @@
+body{
+	background-size: cover;
+	background-position:inherit;
+	background: linear-gradient(141deg, #080808 0%, #313030 51%, #494747 75%);
+	}
+html{
+	cursor: url(cursor.gif), pointer;
+	overflow:auto;
+	}
+ul.topnav {
+    margin-left: 16.5%;
+	width: 100%;
+	list-style-type: none;
+	z-index: auto;
+	overflow: hidden;
+	background-color:#090A0A;
+	position: relative;
+	}
+ul.topnav li {float: left;}
+ul.topnav li a {
+	display: inline-block;
+	color: #818181;
+	text-align: center;
+	padding: 40px 80px;
+	text-decoration: none;
+    transition: 0.8s;
+    font-size: 25px;
+	webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+ul.topnav li a:hover {
+	background-color: #555;
+	color:#CD5C5C;
+    }
+ul.topnav li.icon {display: block;}
+
+ul.sidenav {
+    height:95%;
+    list-style-type: none;
+    z-index: 1;
+    margin: 0px 20px 10px 2%;
+    padding:0;
+    overflow: hidden;
+    position: fixed;
+	}
+
+ul.sidenav li a {
+    display: inline-block;
+	width: 180px;
+    padding:20px 30px 20px 30px;
+    color: #DFE2DB;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 25px;
+    vertical-align: top;
+	webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+ul.sidenav li a:hover {
+    background-color: #555;
+    color:#B40404;
+    display: block;
+    }
+    
+#main
+{
+transition: margin-left .5s;
+padding: 20px;
+}
+
+ul{
+    list-style: none;
+    font-size: 30px;
+    color:#818181;
+    list-style-type: square;
+    position: fixed;
+    font-family: EchinosPark;
+}
+#text{
+    padding-left:22%;
+    padding-right:20%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #DCD9CD;
+}
+.content h1{
+    color: burlywood;
+}
+img.refer{
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+div.refer{
+    background: url(books.jpg);
+    background: rgba(255,255,255,20);
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 300px;
+    margin: 0px 400px 2.5em 300px;
+    overflow: auto;
+    background: #2980b9; /* fallback for old browsers */
+    background: linear-gradient(to left, #2980b9 , #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow: hidden;
+}
+@font-face {
+    font-family: myFont;
+    src: url(style.ttf);
+}
+#text{
+    font-family: myFont;
+    word-spacing: 10px;
+}
+
+#signin{
+height:300px;
+margin:0auto;
+width:200px;
+background:#080808;
+float: right;
+border: 2px #333333 solid;
+text-align:center;
+}
