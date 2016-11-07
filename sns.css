@@ -1,0 +1,264 @@
+
+body{
+		background-image:     linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+         ),
+	url("images/ice2.jpg");
+  }
+
+body{
+
+	background-size:cover;
+
+	background-position:inherit;
+	}
+
+html{
+
+	cursor: url(images/cursor.gif), pointer;
+
+	overflow:hidden;
+
+	}
+
+::-webkit-scrollbar{
+
+	display: none;
+
+}
+
+ul.topnav {
+
+    margin-left: 16.5%;
+
+	width: 100%;
+
+	list-style-type: none;
+
+	z-index: 0;
+
+	overflow: hidden;
+
+	/*background-color:#090A0A;*/
+
+	position: relative;
+
+	height: 100px;
+
+	}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+
+	display: inline-block;
+
+	color: #818181;
+
+	text-align: center;
+
+	padding: 40px 80px;
+
+	text-decoration: none;
+
+    transition: 0.8s;
+
+    font-size: 40px;
+
+	webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+    }
+
+ul.topnav li a:hover {
+
+	background-color: #555;
+
+	color:#CD5C5C;
+
+    }
+
+ul.topnav li.icon {display: block;}
+
+
+
+ul.sidenav {
+
+    height:95%;
+
+    list-style-type: none;
+
+	z-index: 1;
+
+    margin: 0px 20px 10px 2%;
+
+    padding:0;
+
+	overflow: scroll;
+
+    position: fixed;
+
+	color: #6B2626;
+
+	}
+
+
+
+ul.sidenav li a {
+
+	z-index: 1;
+
+    display:inline-table;
+
+	width: 180px;
+
+    padding:20px 30px 20px 30px;
+
+    color: #818181;
+
+    text-align: left;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+
+    font-size: 25px;
+
+    vertical-align: top;
+
+	webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+    }
+
+ul.sidenav li a:hover {
+
+    background-color: #555;
+
+    color:#B40404;
+
+    display: block;
+
+    }
+
+    
+
+#main
+
+{
+
+transition: margin-left .5s;
+
+padding: 20px;
+
+}
+
+
+
+ul{
+
+    list-style: none;
+
+    font-size: 30px;
+
+    color:#818181;
+
+    list-style-type: square;
+
+    position: fixed;
+
+    font-family: EchinosPark;
+
+}
+
+#text{
+
+    padding-left:22%;
+
+    padding-right:20%;
+
+
+    font-weight: bold;
+    color: white;
+     font-family: cafenbrew;
+     word-spacing: 10px;
+    font-size: 25px;
+
+}
+
+.content h1{
+
+    color: burlywood;
+
+}
+
+@font-face {
+    font-family: cafenbrew;
+    src:url('texts/favfav.ttf')format('truetype');
+	}
+
+
+
+#signin{
+
+	height:150px;
+
+	width:200px;
+
+	background:#080808;
+
+	float: right;
+
+	border: 2px #333333 solid;
+
+    border-radius: 10px;
+
+	text-align:center;
+
+}
+
+
+
+#icons
+
+{
+
+	width:40px;
+
+	height:40px;
+
+	border-radius: 5px;
+
+}
+
+
+
+#todaytreat{
+
+	font-size: 22px;
+
+	list-style-type: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
